@@ -7,7 +7,10 @@
     <title>fake loading page</title>
   </head>
   <body>
-    <div id="app" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: royalblue; color: salmon; font-weight: bolder; font-size: xx-large; -webkit-text-stroke: 1px black"></div>
+    <div
+      id="app"
+      style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: rgb(0, 0, 0); color: royalblue; font-weight: bolder; font-size: xx-large; -webkit-text-stroke: 0.5px rgb(13, 195, 236)"
+    ></div>
 
     <script>
       onload = function () {
@@ -23,8 +26,28 @@
 
         setTimeout(() => {
           clearInterval(load);
-          div.textContent = "HAHAHAHAHA";
-        }, 4000);
+          div.textContent = "NEVER GONNA GIVE YOU UP";
+        }, 5000);
+
+        setTimeout(() => {
+          clearInterval(load);
+          div.textContent = "NEVER GONNA LET YOU DOWN";
+        }, 7000);
+
+        setTimeout(() => {
+          clearInterval(load);
+          div.textContent = "NEVER GONNA RUN AROUND...";
+        }, 9000);
+
+        setTimeout(() => {
+          clearInterval(load);
+          div.textContent = "AND DESERT YOU !";
+        }, 11000);
+
+        setTimeout(() => {
+          clearInterval(load);
+          div.textContent = "Cuma bercanda ya bang :v";
+        }, 14000);
       };
     </script>
   </body>
